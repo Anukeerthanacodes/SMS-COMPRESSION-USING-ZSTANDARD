@@ -1,0 +1,72 @@
+/* Background styling */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #b993d6, #8ca6db);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Centered main container */
+.container {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 420px;
+}
+
+/* Title */
+h1 {
+  margin-bottom: 20px;
+  color: #4b2e83;
+  font-size: 28px;
+}
+
+/* Text input box */
+textarea {
+  width: 100%;
+  height: 120px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  resize: none;
+  outline: none;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+/* Button style */
+button {
+  background: #6a5acd;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #5b4ac7;
+}
+
+/* Output section */
+.output {
+  background: #f0f3ff;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.output h3 {
+  color: #4b2e83;
+  margin-bottom: 8px;
+}
